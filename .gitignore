@@ -1,0 +1,15 @@
+# Python Environment Folders
+venv/
+.venv/
+env/
+ENV/
+bin/
+lib/
+
+# Mac OS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code User Workspace Configurations
+.vscode/
