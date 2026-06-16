@@ -1,28 +1,28 @@
-# Finansal Veri ile Oyun Teorisi Simülasyonu 📊🐍
+# Financial Data-Driven Game Theory Simulation
 
-Bu proje, finansal piyasa verilerini kullanarak oyun teorisi stratejilerini ve matematiksel modelleri simüle eden gelişmiş bir Python uygulamasıdır. `yfinance` entegrasyonu sayesinde borsa endeksleri (S&P 500 vb.) üzerinde istatistiksel analizler gerçekleştirir.
+An advanced Python application designed to simulate game theory strategies and mathematical models using real-world financial market data. By integrating the `yfinance` API, the project performs quantitative and statistical analysis on historical index data (e.g., S&P 500).
 
-## 🔥 Özellikler
-- **Gerçek Zamanlı Entegrasyon:** Yahoo Finance API kullanarak güncel finansal veri çekimi.
-- **İstatistiksel Modelleme:** `SciPy` ve `NumPy` ile rastsal yürüyüş (random walk) ve olasılık dağılımları analizi.
-- **Görsel Analiz:** Strateji sonuçlarının `Matplotlib` kütüphanesi yardımıyla grafiksel olarak çizdirilmesi.
+## Key Features
+- **Real-Time Data Integration:** Automated historical and current financial data retrieval using Yahoo Finance API.
+- **Statistical Modeling:** Random walk simulations and probability density distributions leveraging `SciPy` and `NumPy`.
+- **Data Visualization:** Graphical charting and strategy outcomes visualized dynamically via `Matplotlib`.
 
-## 🛠️ Kurulum ve Çalıştırma
+## Installation & Usage
 
-Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları takip edin:
+Follow these steps to run the simulation locally on your machine:
 
-1. Bu depoyu bilgisayarınıza klonlayın veya indirin.
-2. Projenin bulunduğu klasörde bir terminal açın ve gerekli kütüphaneleri yükleyin:
+1. Clone or download this repository to your local computer.
+2. Open a terminal window inside the project directory and install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Simülasyonu başlatın:
+3. Execute the simulation script:
    ```bash
    python simulation.py
    ```
 
-## 📦 Kullanılan Teknolojiler
+## Tech Stack & Dependencies
 - **Python 3**
-- **yfinance** (Finansal Veri Çekimi)
-- **NumPy & SciPy** (Matematik ve İstatistik Hesaplamaları)
-- **Matplotlib** (Veri Görselleştirme)
+- **yfinance** (Financial Data Fetching)
+- **NumPy & SciPy** (Mathematical & Statistical Operations)
+- **Matplotlib** (Data Visualization)
