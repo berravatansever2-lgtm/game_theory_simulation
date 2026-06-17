@@ -60,4 +60,4 @@ market conditions.
 - Results are consistent with the working principle behind 
   **high-frequency trading**: faster strategic adaptation → higher returns.
 - Crisis-period calibration (2008) reduced average investor profit 
-  significantly vs.
+  significantly vs. table periods (2018), consistent with the increased risk during financial crises.
